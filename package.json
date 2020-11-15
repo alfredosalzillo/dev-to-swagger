@@ -1,0 +1,22 @@
+{
+  "name": "dev-to-swagger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.js",
+  "scripts": {
+    "build": "node run.js ./api_v0.yml ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfredosalzillo/dev-to-swagger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfredosalzillo/dev-to-swagger/issues"
+  },
+  "homepage": "https://github.com/alfredosalzillo/dev-to-swagger#readme",
+  "dependencies": {
+    "swagger-to-static": "^1.0.3"
+  }
+}
